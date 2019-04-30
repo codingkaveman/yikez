@@ -330,6 +330,14 @@ section
 	font-size: 30px;
 	color: #FFFFFF;
 }
+#yikez-logo {
+    padding: 40px;
+    width: 255px;
+    height: 255px;
+}
+#yikez-logo:hover {
+    opacity: 0.9;
+}
 .log_reg
 {
 	position: absolute;
