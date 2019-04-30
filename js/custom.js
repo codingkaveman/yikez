@@ -134,11 +134,18 @@ $(document).ready(function()
 			var playlist = 
 			[
 				{
-					title:"2019 Promo Mix",
+					title:"Yikez! - 2019 Promo Mix",
 					artist:"Yikez!",
-					mp3:"files/2019-promo-mix.mp3",
+					mp3:"files/Yikez! - 2019 Promo Mix.mp3",
 					duration:"1.02.32"
 				},
+                
+                {
+                    title:"Slander & YOOKiE - After All Ft. Jinzo (Yikez! Flip)",
+                    artist:"Slander & Yookie ft. Jinzo",
+                    mp3:"files/Slander & YOOKiE - After All Ft. Jinzo (Yikez! Flip).mp3",
+                    duration:"3.40"
+                }
 			];
 
 			var options =
@@ -252,9 +259,10 @@ $(document).ready(function()
 			$("#jplayer_2").jPlayer({
 		ready: function () {
 			$(this).jPlayer("setMedia", {
-				title:"2019 Promo Mix",
-					artist:"Yikez!",
-					mp3:"files/2019-promo-mix.mp3"
+				title:"Slander & YOOKiE - After All Ft. Jinzo (Yikez! Flip)",
+				artist:"Slander & Yookie ft. Jinzo",
+                mp3:"files/Slander & YOOKiE - After All Ft. Jinzo (Yikez! Flip).mp3",
+                duration:"3.40"
 			});
 		},
 		play: function() { // To avoid multiple jPlayers playing together.
